@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Fashion</title>
+    <style>
+        body {
+            font-family: "Verdana", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f0e9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffcc99;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #ff9966;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #ffd1a9;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #ff9966;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #ffe6cc;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #ff9966;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #ff9966;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Vintage Fashion
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#sale">Sale</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h1>Welcome to Vintage Fashion</h1>
+        <p>Explore our unique collection of early 2000s-inspired fashion.</p>
+    </div>
+
+    <div class="section" id="collections">
+        <h2>Collections</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://i.pinimg.com/originals/38/9b/10/389b10af5fd50c6877e1c1b5bf58206c.jpg" alt="Vintage Fashion Collection" style="width:100%; height:auto; border-radius:5px;">
+                <h3>Y2K Denim</h3>
+                <p>Discover our range of denim pieces with a vintage touch.</p>
+                <a href="#">Explore</a>
+            </div>
+            <div class="card">
+                <img src="https://i5.walmartimages.com/asr/e57bb5af-a440-401d-a7cf-4b21cc3cd8c9_1.359bec135c061d15adfa4a24b3b57268.jpeg" alt="graphic tee" style="width: 100%; height: auto; border-radius: 5px;">
+                <h3>Graphic Tees</h3>
+                <p>Bold, colorful, and full of nostalgia.</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="card">
+                <h3>Accessories</h3>
+                <p>Add the perfect finishing touch to your outfit.</p>
+                <a href="#">Browse</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <p>Check out the latest additions to our vintage-inspired collection!</p>
+    </div>
+
+    <div class="section" id="sale">
+        <h2>Sale</h2>
+        <p>Grab your favorite pieces at discounted prices while stocks last!</p>
+    </div>
+
+    <footer>
+        &copy; 2025 Vintage Fashion. All Rights Reserved.
+    </footer>
+</body>
+</html>
